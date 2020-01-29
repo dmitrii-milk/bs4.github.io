@@ -1,0 +1,86 @@
+.navbar {
+    background-color: black;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    color: black;
+}
+
+.header {
+    background-image:url(https://i.picsum.photos/id/1042/3456/5184.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: white;
+}
+
+.description p {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+/*.about,*/.team,.blog,.contact-form {
+
+    padding: 4em;
+    position: relative;
+}
+
+.about {
+    background-image: url(https://i.picsum.photos/id/2/5616/3744.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.about h1 {
+    color: white;
+    margin: 2em;
+}
+
+.about p {
+    color: cornsilk;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-center {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.blog {
+    background-image: url(https://i.picsum.photos/id/395/4080/2720.jpg);
+    background-size: cover;
+}
+
+.team {
+    background-image: url(https://i.picsum.photos/id/378/5184/3456.jpg);
+    background-size: cover;
+}
+
+.contact-form {
+    background-image: url(https://i.picsum.photos/id/640/2509/1673.jpg);
+        background-size: cover;
+}
